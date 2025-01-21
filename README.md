@@ -1,18 +1,30 @@
-# foroHub
+# ForoHub
 
-Crear una API REST con Spring que gestione los tópicos del foro.
+**ForoHub** es una API REST desarrollada en **Java** utilizando el framework **Spring**, diseñada para gestionar los tópicos de un foro de discusión. Esta API permite a los usuarios realizar acciones esenciales para interactuar y administrar los temas del foro de manera eficiente.
 
-## Requisitos
+## Funcionalidades principales
 
-La API desarrollada permitirá a los usuarios realizar las siguientes acciones:
+La API proporciona las siguientes operaciones:
 
-- Crear un nuevo tópico: Los usuarios pueden añadir nuevas preguntas o temas de discusión.
-- Mostrar todos los tópicos creados: Los usuarios pueden ver una lista de todos los tópicos disponibles en el foro.
-- Mostrar un tópico específico: Los usuarios pueden consultar detalles de un tópico particular.
-- Actualizar un tópico: Los usuarios pueden modificar el contenido de un tópico existente.
-- Eliminar un tópico: Los usuarios pueden borrar tópicos que ya no sean relevantes o necesarios.
+1. **Crear un nuevo tópico**
+   - Los usuarios pueden añadir nuevas preguntas o temas de discusión al foro.
 
-## Diagrama Base de datos
+2. **Listar todos los tópicos**
+   - Permite a los usuarios visualizar una lista de todos los tópicos disponibles en el foro.
 
-![Texto alternativo](https://github.com/RogerVeraL/foroHub/blob/main/diagrama_base_de_datos_forohub.png)
+3. **Consultar un tópico específico**
+   - Los usuarios pueden obtener detalles de un tópico en particular.
+
+4. **Actualizar un tópico**
+   - Los usuarios pueden modificar el contenido de un tópico existente, como el título o la descripción.
+
+5. **Eliminar un tópico**
+   - Ofrece la posibilidad de borrar tópicos que ya no sean relevantes o necesarios.
+
+## Tecnologías utilizadas
+
+- **Java**: Lenguaje de programación principal.
+- **Spring Framework**: Framework utilizado para el desarrollo de la API REST.
+- **Maven**: Herramienta para la gestión de dependencias y construcción del proyecto.
+
 
